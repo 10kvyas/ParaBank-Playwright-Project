@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "signup-and-login;register-a-new-customer-and-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Register a new Customer and Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens the ParaBank site",
+            "match": {
+              "location": "stepDefinations\\signup.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2650453499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks on registers a new account",
+            "match": {
+              "location": "stepDefinations\\signup.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 812031000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should be able to see the account balance",
+            "match": {
+              "location": "stepDefinations\\signup.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 821565099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "signup-and-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "SignUp and Login",
+    "tags": [],
+    "uri": "features\\signup.feature"
+  }
+]
